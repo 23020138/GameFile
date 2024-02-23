@@ -1,0 +1,77 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "assets/map1.tmx",
+    "expandedProjectPaths": [
+    ],
+    "fileStates": {
+        "assets/map1.tmx": {
+            "expandedObjectLayers": [
+                4,
+                6
+            ],
+            "scale": 0.5,
+            "selectedLayer": 4,
+            "viewCenter": {
+                "x": 763,
+                "y": 386
+            }
+        },
+        "assets/map1.tmx#blocks1": {
+            "scaleInDock": 0.75
+        },
+        "assets/map1.tmx#blocks2": {
+            "scaleInDock": 0.75
+        },
+        "assets/map1.tmx#ocean_5": {
+            "scaleInDock": 0.125,
+            "scaleInEditor": 1
+        },
+        "assets/map2.tmx": {
+            "expandedObjectLayers": [
+                4,
+                8,
+                6
+            ],
+            "scale": 0.33,
+            "selectedLayer": 3,
+            "viewCenter": {
+                "x": 2398.4848484848485,
+                "y": 321.21212121212125
+            }
+        },
+        "assets/map2.tmx#blocks1": {
+            "scaleInDock": 0.5
+        },
+        "assets/map2.tmx#blocks2": {
+            "scaleInDock": 0.5
+        },
+        "assets/ocean_5.tsx": {
+            "scaleInDock": 0.125,
+            "scaleInEditor": 1
+        }
+    },
+    "last.imagePath": "C:/Users/HP/Desktop/Game/Game/assets",
+    "map.lastUsedFormat": "tmx",
+    "map.layerDataFormat": null,
+    "openFiles": [
+        "assets/map1.tmx",
+        "assets/map2.tmx"
+    ],
+    "project": "game.tiled-project",
+    "recentFiles": [
+        "assets/map2.tmx",
+        "assets/map1.tmx",
+        "assets/ocean_5.tsx"
+    ],
+    "tileset.embedInMap": true,
+    "tileset.lastUsedFormat": "tsx",
+    "tileset.margin": 2,
+    "tileset.spacing": 2,
+    "tileset.tileSize": {
+        "height": 32,
+        "width": 32
+    }
+}

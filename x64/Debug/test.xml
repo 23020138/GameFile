@@ -1,0 +1,47 @@
+<?xml version="1.0" ?>
+<STATES>
+	<MENU>
+		<TEXTURES>
+			<texture filename="assets/main_menu/new_game_menu.png" ID="playbutton"/>
+			<texture filename="assets/main_menu/exit_menu.png" ID="exitbutton"/>
+		</TEXTURES>
+		<OBJECTS>
+			<object type="MenuButton" x="350" y="250" width="333" height="63" textureID="playbutton" numFrames="0" callbackID="1"/>
+			<object type="MenuButton" x="350" y="350" width="333" height="63" textureID="exitbutton" numFrames="0" callbackID="2"/>
+		</OBJECTS>
+	</MENU>
+	<PAUSE>
+		<TEXTURES>
+			<texture filename="assets/main_menu/option_menu.png" ID="mainbutton"/>
+			<texture filename="assets/main_menu/continue_menu.png" ID="resumebutton"/>
+		</TEXTURES>
+		<OBJECTS>
+			<object type="MenuButton" x="350" y="250" width="333" height="61" textureID="mainbutton" numFrames="0" callbackID="1"/>
+			<object type="MenuButton" x="350" y="350" width="333" height="61" textureID="resumebutton" numFrames="0" callbackID="2"/>
+		</OBJECTS>
+	</PAUSE>
+	<PLAY>
+		<TEXTURES>
+			<texture filename="assets/spaceShip/PNG/Ship1/Ship1-run.png" ID="Ship1"/>
+			<texture filename="assets/spaceShip/PNG/Ship5/Ship5-run.png" ID="Ship5"/>
+		</TEXTURES>
+		<OBJECTS>
+			<object type="Player" x="600" y="100" width="340" height="162" textureID="Ship1" numFrames="10"/>
+			<object type="Enemy" x="0" y="200" width="357" height="92" textureID="Ship5" numFrames="10"/>
+		</OBJECTS>
+	</PLAY>
+	<GAMEOVER>
+		<TEXTURES>
+			<texture filename="assets/game_over_text.png" ID="gameovertext"/>
+			<texture filename="assets/Rick_Roll.png" ID="rickroll"/>
+			<texture filename="assets/main_menu/option_menu.png" ID="mainbutton"/>
+			<texture filename="assets/main_menu/newGame_menu.png" ID="restartbutton"/>
+		</TEXTURES>
+		<OBJECTS>
+			<object type="AnimatedGraphic" x="430" y="10" width="158" height="158" textureID="gameovertext" numFrames="10" animSpeed="2"/>
+			<object type="AnimatedGraphic" x="430" y="150" width="153" height="163" textureID="rickroll" numFrames="10" animSpeed="2"/>
+			<object type="MenuButton" x="350" y="350" width="333" height="63" textureID="mainbutton" numFrames="0" callbackID="1"/>
+			<object type="MenuButton" x="350" y="450" width="333" height="63" textureID="restartbutton" numFrames="0" callbackID="2"/>
+		</OBJECTS>
+	</GAMEOVER>
+</STATES>
