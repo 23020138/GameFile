@@ -93,7 +93,7 @@ bool MainMenuState::onExit() {
 
 void MainMenuState::_menuToPlay()
 {
-	TheGame::Instance()->getStateMachine()->changeState(new PlayState());
+	TheGame::Instance()->getStateMachine()->pushState(new PlayState());
 }
 
 void MainMenuState::_exitFromMenu()
