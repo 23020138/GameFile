@@ -70,6 +70,7 @@ bool MainMenuState::onExit() {
 		for (int i = 0; i < _gameObjects.size(); i++)
 		{
 			_gameObjects[i]->clean();
+			delete _gameObject[i];
 		}
 	}
 	//if (_loadingComplete && !_gameObjects.empty())
